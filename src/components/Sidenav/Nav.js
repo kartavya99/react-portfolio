@@ -1,11 +1,12 @@
 import React from "react";
+import avatar from "../../Images/avatar.jpg";
 
-import "./nav.css";
+import "./Nav.css";
 
 const Nav = () => {
   return (
     <div className="side-nav">
-      <img src="../images/avatar.png" alt="tech"></img>
+      <img src={avatar} alt="tech"></img>
       <h2>Kartavya Saini</h2>
       <h2> About </h2>
       <h2> Projects </h2>
