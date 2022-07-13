@@ -3,6 +3,7 @@ import SideNav from "../Sidenav/Nav";
 import About from "../About/About";
 import Project from "../Projects/Project";
 import Contact from "../Contact/Contact";
+import Skills from "../Skills/Skills";
 
 import "./ParentContainer.css";
 
@@ -13,6 +14,7 @@ const ParentContainer = () => {
     // console.log("hello world");
     if (currentPage === "About") return <About />;
     if (currentPage === "Project") return <Project />;
+    if (currentPage === "Skills") return <Skills />;
     if (currentPage === "Contact") return <Contact />;
   };
 

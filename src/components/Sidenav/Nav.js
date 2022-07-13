@@ -15,7 +15,10 @@ const Nav = ({ currentPage, pageChangeHandler }) => {
       <a href="#project" onClick={() => pageChangeHandler("Project")}>
         Project
       </a>
-      <a href="#skills"> Skills </a>
+      <a href="#skills" onClick={() => pageChangeHandler("Skills")}>
+        {" "}
+        Skills{" "}
+      </a>
       <a href="#contact" onClick={() => pageChangeHandler("Contact")}>
         {" "}
         Contact{" "}
