@@ -8,7 +8,7 @@ import Skills from "../Skills/Skills";
 import "./ParentContainer.css";
 
 const ParentContainer = () => {
-  const [currentPage, setCurrentPage] = useState("");
+  const [currentPage, setCurrentPage] = useState();
 
   const displayPage = () => {
     // console.log("hello world");
