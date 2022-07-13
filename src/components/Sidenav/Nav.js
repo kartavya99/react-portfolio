@@ -6,10 +6,10 @@ import "./Nav.css";
 const Nav = ({ currentPage, pageChangeHandler }) => {
   // console.log(pageChangeHandler);
   return (
-    <div className="side-nav">
-      <img src={avatar} alt="tech"></img>
-      <h2>Kartavya Saini</h2>
-      <a href="#about" onClick={() => pageChangeHandler("About")}>
+    <div className="side-nav ">
+      <img src={avatar} alt="tech" className="img"></img>
+      <h2 className="a">Kartavya Saini</h2>
+      <a href="#about" onClick={() => pageChangeHandler("About")} className="a">
         About
       </a>
       <a href="#project" onClick={() => pageChangeHandler("Project")}>
