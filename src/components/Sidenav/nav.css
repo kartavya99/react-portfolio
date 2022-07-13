@@ -3,5 +3,9 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  background-color: antiquewhite;
+  background-color: rgb(43, 48, 50);
+}
+
+.img {
+  width: 350px;
 }

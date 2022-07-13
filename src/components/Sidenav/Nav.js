@@ -1,5 +1,6 @@
 import React from "react";
-import avatar from "../../Images/avatar.jpg";
+
+import pic from "../../Images/pic.jpg";
 
 import "./Nav.css";
 
@@ -7,7 +8,7 @@ const Nav = ({ currentPage, pageChangeHandler }) => {
   // console.log(pageChangeHandler);
   return (
     <div className="side-nav ">
-      <img src={avatar} alt="tech" className="img"></img>
+      <img src={pic} alt="tech" className="img"></img>
       <h2 className="a">Kartavya Saini</h2>
       <a href="#about" onClick={() => pageChangeHandler("About")} className="a">
         About
