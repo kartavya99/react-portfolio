@@ -1,22 +1,29 @@
 import React, { useState } from "react";
 import SideNav from "../Sidenav/Nav";
+import About from "../About/About";
 
 import "./ParentContainer.css";
 
 const ParentContainer = () => {
-  const [currentPage, setCurrentPage] = useState("About");
+  const [currentPage, setCurrentPage] = useState("");
 
-  const pageChangeHandler = (prePage) => {
-    setCurrentPage(prePage);
+  const displayPage = () => {
+    // console.log("hello world");
+    if (currentPage === "About") return <About />;
   };
 
+  const pageChangeHandler = (prePage) => setCurrentPage(prePage);
+
   return (
-    <div className="main-container">
-      <SideNav
-        currentPage={currentPage}
-        pageChangeHandler={pageChangeHandler}
-      />
-    </div>
+    <>
+      <div>
+        <SideNav
+          currentPage={currentPage}
+          pageChangeHandler={pageChangeHandler}
+        />
+      </div>
+      <div className="main-container"> {displayPage()} </div>
+    </>
   );
 };
 
