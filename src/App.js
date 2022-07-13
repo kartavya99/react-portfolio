@@ -1,12 +1,10 @@
 import "./App.css";
-import Nav from "./components/Sidenav/Nav";
-import MainContainer from "./components/MainContainer";
+import ParentContainer from "./components/ParentContainer/ParentContainer";
 
 function App() {
   return (
     <div className="App">
-      <Nav />
-      <MainContainer />
+      <ParentContainer />
     </div>
   );
 }

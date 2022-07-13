@@ -3,16 +3,23 @@ import avatar from "../../Images/avatar.jpg";
 
 import "./Nav.css";
 
-const Nav = () => {
+const Nav = (currentPage, pageChangeHandler) => {
   return (
     <div className="side-nav">
       <img src={avatar} alt="tech"></img>
       <h2>Kartavya Saini</h2>
-      <h2> About </h2>
-      <h2> Projects </h2>
-      <h2> Skills</h2>
-      <h2> Contact </h2>
-      <h2> Resume </h2>
+      <a
+        href="#about"
+        onClick={() => {
+          pageChangeHandler("ABout");
+        }}
+      >
+        About
+      </a>
+      <a href="#project"> Project </a>
+      <a href="#skills"> Skills </a>
+      <a href="#contact"> Contact </a>
+      <a href="#resume"> Resume </a>
     </div>
   );
 };
