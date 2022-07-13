@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import SideNav from "../Sidenav/Nav";
 import About from "../About/About";
+import Project from "../Projects/Project";
+import Contact from "../Contact/Contact";
 
 import "./ParentContainer.css";
 
@@ -10,6 +12,8 @@ const ParentContainer = () => {
   const displayPage = () => {
     // console.log("hello world");
     if (currentPage === "About") return <About />;
+    if (currentPage === "Project") return <Project />;
+    if (currentPage === "Contact") return <Contact />;
   };
 
   const pageChangeHandler = (prePage) => setCurrentPage(prePage);
