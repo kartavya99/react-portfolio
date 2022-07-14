@@ -3,9 +3,16 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  background-color: rgb(43, 48, 50);
+  background-color: #1e1e1e;
+}
+
+.a {
+  color: azure;
+  padding: 15px;
 }
 
 .img {
+  margin-top: 50px;
   width: 350px;
+  border-radius: 40%;
 }

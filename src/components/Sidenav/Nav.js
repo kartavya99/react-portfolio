@@ -13,18 +13,33 @@ const Nav = ({ currentPage, pageChangeHandler }) => {
       <a href="#about" onClick={() => pageChangeHandler("About")} className="a">
         About
       </a>
-      <a href="#project" onClick={() => pageChangeHandler("Project")}>
+      <a
+        className="a"
+        href="#project"
+        onClick={() => pageChangeHandler("Project")}
+      >
         Project
       </a>
-      <a href="#skills" onClick={() => pageChangeHandler("Skills")}>
+      <a
+        className="a"
+        href="#skills"
+        onClick={() => pageChangeHandler("Skills")}
+      >
         {" "}
         Skills{" "}
       </a>
-      <a href="#contact" onClick={() => pageChangeHandler("Contact")}>
+      <a
+        className="a"
+        href="#contact"
+        onClick={() => pageChangeHandler("Contact")}
+      >
         {" "}
         Contact{" "}
       </a>
-      <a href="#resume"> Resume </a>
+      <a className="a" href="#resume">
+        {" "}
+        Resume{" "}
+      </a>
     </div>
   );
 };

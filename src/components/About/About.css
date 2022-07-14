@@ -1,5 +1,6 @@
 .about {
   text-align: center;
-  height: 100%;
-  background-color: azure;
+  height: 100vh;
+  width: 100%;
+  color: azure;
 }
