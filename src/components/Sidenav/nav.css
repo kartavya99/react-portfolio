@@ -8,11 +8,26 @@
 
 .a {
   color: azure;
-  padding: 15px;
+  padding: 6px 8px 6px 16px;
+  font-size: 30px;
+}
+
+.name {
+  color: azure;
+  padding: 6px 8px 6px 16px;
+  font-size: 40px;
 }
 
 .img {
-  margin-top: 50px;
-  width: 350px;
+  margin: 50px 20px 15px;
+  width: 85%;
   border-radius: 40%;
+  background-position: center;
+  box-shadow: 5px 5px 15px #36353554;
+}
+
+.side-nav a:hover {
+  color: #080808;
+  background-color: aliceblue;
+  border-radius: 20%;
 }

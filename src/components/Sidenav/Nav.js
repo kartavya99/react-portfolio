@@ -9,7 +9,7 @@ const Nav = ({ currentPage, pageChangeHandler }) => {
   return (
     <div className="side-nav ">
       <img src={pic} alt="tech" className="img"></img>
-      <h2 className="a">Kartavya Saini</h2>
+      <h1 className="name">Kartavya Saini</h1>
       <a href="#about" onClick={() => pageChangeHandler("About")} className="a">
         About
       </a>
