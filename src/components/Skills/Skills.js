@@ -1,8 +1,9 @@
 import React from "react";
+import "./Skill.css";
 
 const Skills = () => {
   return (
-    <div>
+    <div className="skills">
       <div>
         <h3>Languages</h3>
         <h6>HTML, CSS, JavaScript, SQL</h6>
