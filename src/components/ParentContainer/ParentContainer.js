@@ -29,9 +29,7 @@ const ParentContainer = () => {
           pageChangeHandler={pageChangeHandler}
         />
       </div>
-      <div className="col-sm-8">
-        <div className="parent-container"> {displayPage()} </div>
-      </div>
+      <div className="col-sm-8"> {displayPage()} </div>
     </div>
   );
 };

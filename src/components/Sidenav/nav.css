@@ -1,0 +1,36 @@
+.nav-img {
+  width: 95%;
+  padding: 15px;
+  border-radius: 40%;
+}
+
+.sidenav {
+  height: 100%;
+  width: 350px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: hsl(0, 0%, 100%);
+  background-color: azure;
+  color: #111;
+  border-radius: 10px;
+}
+
+.name {
+  color: azure;
+}
