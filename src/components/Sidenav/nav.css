@@ -1,5 +1,5 @@
 .nav-img {
-  width: 95%;
+  width: 80%;
   padding: 15px;
   border-radius: 40%;
 }
@@ -11,12 +11,12 @@
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #111;
+  background-color: rgb(37, 36, 36);
   overflow-x: hidden;
   padding-top: 20px;
 }
 
-.sidenav a {
+.sidenav .a-link {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 25px;
@@ -24,7 +24,7 @@
   display: block;
 }
 
-.sidenav a:hover {
+.sidenav .a-link:hover {
   color: hsl(0, 0%, 100%);
   background-color: azure;
   color: #111;
@@ -33,4 +33,19 @@
 
 .name {
   color: azure;
+}
+
+.footer-link {
+  height: 15px;
+  font-size: 25px;
+}
+
+.footer-link a:hover {
+  color: azure;
+}
+
+.footer-line {
+  color: azure;
+  font-size: 20px;
+  margin-top: 5px;
 }
