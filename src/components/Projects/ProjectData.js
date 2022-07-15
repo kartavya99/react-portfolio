@@ -48,7 +48,7 @@ const projectData = [
     liveUrl: "https://pwatexteditorks.herokuapp.com/",
     gitHubUrl:
       "https://github.com/kartavya99/ProgressiveWebApplications-Text-Editor.git",
-    img: "https://i.imgur.com/KOO8lSb.png",
+    img: "https://i.imgur.com/KOO8lSb.png?1",
     alt: "A text editor that runs in the browser. The app is a single-page application that meets the PWA criteria. Additionally, it features a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The application also functions offline",
   },
   {
