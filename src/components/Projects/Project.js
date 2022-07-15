@@ -11,7 +11,7 @@ const Project = (props) => {
   //   })
   // );
   return (
-    <section className="">
+    <section className="container-fluid">
       {projectData.map((project) => (
         <div className="card custom-style">
           <img className="card-img-top" src={project.img} alt={project.title} />

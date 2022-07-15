@@ -3,30 +3,30 @@ import "./Skill.css";
 
 const Skills = () => {
   return (
-    <div className="">
-      <div>
-        <h3>Languages</h3>
-        <h6>HTML, CSS, JavaScript, SQL</h6>
+    <div className="skill">
+      <div className="para">
+        <h3 className="heading">Languages</h3>
+        <h6 className="text">HTML, CSS, JavaScript, SQL</h6>
       </div>
-      <div>
-        <h3>Frontend</h3>
-        <h6>React, Bootstrap, JQUery, Redux</h6>
+      <div className="para">
+        <h3 className="heading">Frontend</h3>
+        <h6 className="text">React, Bootstrap, JQUery, Redux</h6>
       </div>
-      <div>
-        <h3>Backend</h3>
-        <h6>
+      <div className="par">
+        <h3 className="heading">Backend</h3>
+        <h6 className="text">
           Node.js, ExpressJS, REST APIs, Apollo, MongoDB, Mongoose, Sequelize{" "}
         </h6>
       </div>
-      <div>
-        <h3>Application</h3>
-        <h6>
+      <div className="para">
+        <h3 className="heading">Application</h3>
+        <h6 className="text">
           Git, Heroku, Insomnia, MySQL, Progressive Web Application, Webpack
         </h6>
       </div>
-      <div>
-        <h3>Productivity</h3>
-        <h6>Slack, Zoom, Microsoft Office Suits</h6>
+      <div className="para">
+        <h3 className="heading">Productivity</h3>
+        <h6 className="text">Slack, Zoom, Microsoft Office Suits</h6>
       </div>
     </div>
   );

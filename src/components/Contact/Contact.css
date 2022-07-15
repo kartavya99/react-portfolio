@@ -1,0 +1,15 @@
+.contact-div {
+  height: 100vh;
+  margin-top: 25px;
+}
+
+.para {
+  margin-top: 25px;
+  padding: 25px;
+  border-color: whitesmoke;
+}
+
+.text {
+  color: azure;
+  font-size: 25px;
+}

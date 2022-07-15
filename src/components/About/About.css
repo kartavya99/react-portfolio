@@ -1,0 +1,14 @@
+.about {
+  height: 100vh;
+}
+
+.para {
+  margin-top: 25px;
+  padding: 25px;
+  border-color: whitesmoke;
+}
+
+.text {
+  color: azure;
+  font-size: 25px;
+}
