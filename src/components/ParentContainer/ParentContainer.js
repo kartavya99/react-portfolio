@@ -4,6 +4,7 @@ import About from "../About/About";
 import Project from "../Projects/Project";
 import Contact from "../Contact/Contact";
 import Skills from "../Skills/Skills";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 import "./ParentContainer.css";
 
@@ -21,15 +22,17 @@ const ParentContainer = () => {
   const pageChangeHandler = (prePage) => setCurrentPage(prePage);
 
   return (
-    <>
-      <div>
+    <div className="row">
+      <div className="col-sm-4">
         <SideNav
           currentPage={currentPage}
           pageChangeHandler={pageChangeHandler}
         />
       </div>
-      <div className="main-container"> {displayPage()} </div>
-    </>
+      <div className="col-sm-8">
+        <div className="parent-container"> {displayPage()} </div>
+      </div>
+    </div>
   );
 };
 

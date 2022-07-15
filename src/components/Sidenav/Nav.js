@@ -7,21 +7,21 @@ import "./Nav.css";
 const Nav = ({ currentPage, pageChangeHandler }) => {
   // console.log(pageChangeHandler);
   return (
-    <div className="side-nav ">
-      <img src={pic} alt="tech" className="img"></img>
+    <div className="">
+      <img src={pic} alt="tech" className=""></img>
       <h1 className="name">Kartavya Saini</h1>
-      <a href="#about" onClick={() => pageChangeHandler("About")} className="a">
+      <a href="#about" onClick={() => pageChangeHandler("About")} className="">
         About
       </a>
       <a
-        className="a"
+        className=""
         href="#project"
         onClick={() => pageChangeHandler("Project")}
       >
         Project
       </a>
       <a
-        className="a"
+        className=""
         href="#skills"
         onClick={() => pageChangeHandler("Skills")}
       >
@@ -29,14 +29,14 @@ const Nav = ({ currentPage, pageChangeHandler }) => {
         Skills{" "}
       </a>
       <a
-        className="a"
+        className=""
         href="#contact"
         onClick={() => pageChangeHandler("Contact")}
       >
         {" "}
         Contact{" "}
       </a>
-      <a className="a" href="#resume">
+      <a className="" href="#resume">
         {" "}
         Resume{" "}
       </a>
