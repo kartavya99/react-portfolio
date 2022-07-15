@@ -1,14 +1,15 @@
 .about {
   height: 100vh;
+  margin-top: 75px;
+  margin-bottom: 50px;
 }
 
-.para {
-  margin-top: 25px;
-  padding: 25px;
-  border-color: whitesmoke;
+.para-about {
+  margin-bottom: 0px;
+  padding: 15px;
 }
 
-.text {
+.text-about {
   color: azure;
   font-size: 25px;
 }

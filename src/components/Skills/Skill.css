@@ -1,19 +1,22 @@
 .skill {
   height: 100vh;
+  margin-top: 75px;
 }
 
-.para {
-  margin-top: 25px;
-  padding: 25px;
+.para-skills {
+  margin-top: 0px;
+  padding: 15px;
   border-color: whitesmoke;
 }
 
-.text {
+.text-skills {
   color: azure;
   font-size: 25px;
+  text-align: left;
 }
 
 .heading {
   color: azure;
   font-size: 35px;
+  text-align: left;
 }
