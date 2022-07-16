@@ -11,13 +11,17 @@
   font-size: 40px;
 }
 
-.para {
-  margin-top: 25px;
-  padding: 25px;
-  border-color: whitesmoke;
+.para-contact {
+  padding-right: 50px;
+  padding-bottom: 25px;
+  border-bottom: 3px solid whitesmoke;
 }
 
-.text {
+.contact-text {
   color: azure;
   font-size: 25px;
+}
+
+.div-footer {
+  margin-top: 50px;
 }
