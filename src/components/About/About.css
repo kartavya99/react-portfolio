@@ -4,6 +4,14 @@
   margin-bottom: 50px;
 }
 
+.text-heading {
+  color: azure;
+  text-align: right;
+  padding-right: 50px;
+  margin-right: 50px;
+  font-size: 40px;
+}
+
 .para-about {
   margin-bottom: 0px;
   padding: 15px;

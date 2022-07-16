@@ -4,6 +4,14 @@
   flex-wrap: wrap;
 }
 
+.project-heading {
+  color: azure;
+  text-align: right;
+  margin: 50px 50px;
+  padding-right: 75px;
+  font-size: 40px;
+}
+
 .inner-container {
   display: flex;
   align-items: flex-start;

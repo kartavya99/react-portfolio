@@ -2,6 +2,14 @@
   height: 100vh;
   margin-top: 75px;
 }
+.skills-heading {
+  color: azure;
+  text-align: right;
+  margin-right: 50px;
+  margin-top: 50px;
+  padding-right: 75px;
+  font-size: 40px;
+}
 
 .para-skills {
   margin-top: 0px;

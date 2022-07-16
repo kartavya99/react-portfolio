@@ -3,6 +3,14 @@
   margin-top: 25px;
 }
 
+.contact-heading {
+  color: azure;
+  text-align: right;
+  margin: 50px 50px;
+  padding-right: 75px;
+  font-size: 40px;
+}
+
 .para {
   margin-top: 25px;
   padding: 25px;

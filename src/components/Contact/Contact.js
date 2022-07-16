@@ -4,6 +4,9 @@ import "./Contact.css";
 const Contact = () => {
   return (
     <div className="contact-div">
+      <heading>
+        <div className="contact-heading"> Contact Me |</div>
+      </heading>
       <p className="text">
         {" "}
         Thank you for visiting my portfolio please click below to get in touch{" "}
