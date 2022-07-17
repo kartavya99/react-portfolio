@@ -11,40 +11,42 @@ const Nav = ({ currentPage, pageChangeHandler }) => {
     <div className="sidenav">
       <img src={pic} alt="tech" className="nav-img"></img>
       <h1 className="name">KARTAVYA SAINI</h1>
-      <a
-        href="#about"
-        onClick={() => pageChangeHandler("About")}
-        className="a-link"
-      >
-        About
-      </a>
-      <a
-        href="#project"
-        className="a-link"
-        onClick={() => pageChangeHandler("Project")}
-      >
-        Project
-      </a>
-      <a
-        href="#skills"
-        className="a-link"
-        onClick={() => pageChangeHandler("Skills")}
-      >
-        {" "}
-        Skills{" "}
-      </a>
-      <a
-        href="#contact"
-        className="a-link"
-        onClick={() => pageChangeHandler("Contact")}
-      >
-        {" "}
-        Contact{" "}
-      </a>
-      <a href="#resume" className="a-link">
-        {" "}
-        Resume{" "}
-      </a>
+      <li className="nav-list">
+        <a
+          href="#about"
+          onClick={() => pageChangeHandler("About")}
+          className="a-link"
+        >
+          About
+        </a>
+        <a
+          href="#project"
+          className="a-link"
+          onClick={() => pageChangeHandler("Project")}
+        >
+          Project
+        </a>
+        <a
+          href="#skills"
+          className="a-link"
+          onClick={() => pageChangeHandler("Skills")}
+        >
+          {" "}
+          Skills{" "}
+        </a>
+        <a
+          href="#contact"
+          className="a-link"
+          onClick={() => pageChangeHandler("Contact")}
+        >
+          {" "}
+          Contact{" "}
+        </a>
+        <a href="#resume" className="a-link">
+          {" "}
+          Resume{" "}
+        </a>
+      </li>
 
       <footer>
         <div>

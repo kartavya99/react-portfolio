@@ -19,9 +19,12 @@
 .sidenav .a-link {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
-  font-size: 25px;
   color: #818181;
   display: block;
+}
+
+.a-link {
+  font-size: 25px;
 }
 
 .sidenav .a-link:hover {
@@ -50,7 +53,7 @@
   margin-top: 5px;
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 428px) {
   .nav-img {
     display: none;
   }
@@ -61,13 +64,16 @@
 
   .sidenav {
     width: 100%;
-    height: 15%;
+    height: 100px;
     display: flex;
     flex-direction: row;
   }
 
   .a-link {
     display: inline;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    font-size: 15px;
   }
 
   .footer-line {
@@ -76,5 +82,17 @@
 
   .name {
     font-size: 20px;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    height: 50px;
+    text-align: center;
   }
 }
