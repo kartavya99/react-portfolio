@@ -23,5 +23,38 @@
 }
 
 .div-footer {
+  height: 100%;
   margin-top: 50px;
+  /* border: 5px solid white; */
+}
+
+@media only screen and (max-width: 428px) {
+  .contact-div {
+    align-content: flex-start;
+  }
+
+  .contact-heading {
+    display: none;
+  }
+
+  .para-contact {
+    margin-top: 125px;
+    text-align: justify;
+    padding: 0;
+  }
+
+  .contact-text {
+    font-size: 12px;
+    margin-bottom: 0;
+    padding: 0px 30px;
+  }
+
+  .div-footer {
+    height: 100px;
+    margin-top: 25px;
+  }
+
+  .footer-link {
+    background-color: white;
+  }
 }

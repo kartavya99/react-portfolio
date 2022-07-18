@@ -3,6 +3,7 @@
   height: 100vh;
   margin-top: 75px;
   background-color: #1e1e1e;
+  overflow-x: hidden;
 }
 
 .text-heading {
@@ -22,15 +23,15 @@
 .text-about {
   color: azure;
   font-size: 20px;
+  text-align: justify;
+  padding: 30px;
 }
 
 @media only screen and (max-width: 428px) {
-  .container-fluid {
-    align-content: flex-start;
-  }
-
   .about {
+    align-content: flex-start;
     height: 100vh;
+    margin-top: 160px;
   }
 
   .text-heading {

@@ -16,14 +16,14 @@ const Contact = () => {
           {" "}
           Thank you for visiting my portfolio please click below to get in touch{" "}
         </p>
-        <div className="contact-text"> GitHuub</div>
+        {/* <div className="contact-text"> GitHuub</div>
         <div className="contact-text"> linkedin</div>
         <div className="contact-text"> Phone</div>
-        <div className="contact-text"> Email</div>
+        <div className="contact-text"> Email</div> */}
       </div>
 
       <footer>
-        <div className="div-footer">
+        <div className="div-footer d-flex justify-content-center">
           <a
             href="https://github.com/kartavya99"
             target="__blank"
