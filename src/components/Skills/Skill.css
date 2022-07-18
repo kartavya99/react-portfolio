@@ -6,9 +6,8 @@
 .skills-heading {
   color: azure;
   text-align: right;
-  margin-right: 50px;
-  margin-top: 50px;
-  padding-right: 75px;
+  margin: 50px 50px;
+  padding-right: 50px;
   font-size: 30px;
 }
 
@@ -33,17 +32,22 @@
 @media only screen and (max-width: 428px) {
   .skill {
     align-content: flex-start;
+    margin-top: 120px;
   }
 
   .skills-div {
-    margin-top: 150px;
+    margin-top: 50px;
+    /* border-bottom: 2px solid whitesmoke; */
   }
 
   .skills-heading {
-    display: none;
+    /* display: none; */
+    font-size: 20px;
+    padding-right: 0px;
   }
   .para-skills {
-    margin-top: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     text-align: justify;
     padding: 0;
   }

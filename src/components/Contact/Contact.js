@@ -30,11 +30,12 @@ const Contact = () => {
             rel="noopener noreferrer"
             className="footer-link"
           >
-            <FontAwesomeIcon
+            {/* <FontAwesomeIcon
               icon={faGithub}
               size="2x"
               className="p-2 mx-2 text-light"
-            />
+            /> */}
+            github
           </a>
           <a
             href="https://www.linkedin.com/in/kartavya99"
@@ -44,6 +45,18 @@ const Contact = () => {
           >
             <FontAwesomeIcon
               icon={faLinkedin}
+              size="2x"
+              className="p-2 mx-2 text-light"
+            />
+          </a>
+          <a
+            href="mailto:kartavyas@gmail.com"
+            target="__blank"
+            rel="noopener noreferrer"
+            className="footer-link"
+          >
+            <FontAwesomeIcon
+              icon={faEnvelope}
               size="2x"
               className="p-2 mx-2 text-light"
             />

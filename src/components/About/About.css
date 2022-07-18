@@ -1,17 +1,16 @@
 .about {
   width: 100%;
   height: 100vh;
-  margin-top: 75px;
+  margin-top: 25px;
   background-color: #1e1e1e;
   overflow-x: hidden;
 }
 
 .text-heading {
   color: azure;
-  width: 100%;
   text-align: right;
+  margin: 0px 50px;
   padding-right: 50px;
-  margin-right: 50px;
   font-size: 30px;
 }
 
@@ -31,14 +30,16 @@
   .about {
     align-content: flex-start;
     height: 100vh;
-    margin-top: 160px;
+    margin-top: 90px;
   }
 
   .text-heading {
-    display: none;
+    /* display: none; */
+    font-size: 20px;
+    padding-right: 0px;
   }
   .para-about {
-    margin-top: 50px;
+    margin-top: 25px;
     text-align: justify;
     padding: 0;
   }
