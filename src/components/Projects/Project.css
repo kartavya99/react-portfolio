@@ -1,7 +1,9 @@
 .container-fluid {
   display: flex;
-  align-items: flex-start;
+  /* align-items: flex-start; */
   flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0;
 }
 
 .project-heading {
@@ -9,7 +11,7 @@
   text-align: right;
   margin: 50px 50px;
   padding-right: 75px;
-  font-size: 40px;
+  font-size: 30px;
 }
 
 .inner-container {
@@ -42,4 +44,21 @@
 
 .pro-link {
   padding: 5px;
+}
+
+@media only screen and (max-width: 428px) {
+  .project-div {
+    box-sizing: 100%;
+    width: 100%;
+  }
+  .project-heading {
+    display: none;
+  }
+
+  .container-fluid {
+    width: 437px;
+    margin-top: 100px;
+    justify-content: space-around;
+    overflow-x: hidden;
+  }
 }

@@ -67,6 +67,7 @@
     height: 100px;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
   }
 
   .a-link {
@@ -81,10 +82,13 @@
   }
 
   .name {
+    width: 100%;
     font-size: 20px;
     text-align: center;
     padding-left: 15px;
     padding-right: 15px;
+    display: flex;
+    justify-content: center;
   }
 
   .nav-list {

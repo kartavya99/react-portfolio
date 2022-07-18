@@ -11,27 +11,12 @@ const Project = (props) => {
   //   })
   // );
   return (
-    <div>
+    <div className="project-div">
       <heading className="">
         <div className="project-heading"> Projects |</div>
       </heading>
       <section className="container-fluid">
         {projectData.map((project) => (
-          // <div className="inner-container">
-          //   <div className="card custom-style">
-          //     <img
-          //       className="card-img-top"
-          //       src={project.img}
-          //       alt={project.title}
-          //     />
-          //     <div className="card-body">
-          //       <h5 className="card-title">{project.title}</h5>
-          //       <p className="card-text">text</p>
-          //       {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
-          //     </div>
-          //   </div>
-          // </div>
-
           <div className="card custom-style box">
             <img src={project.img} alt={project.title} className="card-body " />
             <div className="">
