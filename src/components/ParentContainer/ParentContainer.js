@@ -23,13 +23,13 @@ const ParentContainer = () => {
 
   return (
     <div className="row">
-      <div className="col-sm-4">
+      <div className="col-sm-4 side-nave">
         <SideNav
           currentPage={currentPage}
           pageChangeHandler={pageChangeHandler}
         />
       </div>
-      <div className="col-sm-8"> {displayPage()} </div>
+      <div className="col-sm-8 parent-div"> {displayPage()} </div>
     </div>
   );
 };

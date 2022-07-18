@@ -24,8 +24,37 @@
   text-align: left;
 }
 
-.heading {
+.heading-lng {
   color: azure;
   font-size: 25px;
   text-align: left;
+}
+
+@media only screen and (max-width: 428px) {
+  .skill {
+    align-content: flex-start;
+  }
+
+  .skills-div {
+    margin-top: 150px;
+  }
+
+  .skills-heading {
+    display: none;
+  }
+  .para-skills {
+    margin-top: 25px;
+    text-align: justify;
+    padding: 0;
+  }
+  .heading-lng {
+    font-size: 18px;
+    margin-bottom: 0;
+    padding: 0px 30px;
+  }
+  .text-skills {
+    font-size: 12px;
+    margin-bottom: 0;
+    padding: 0px 30px;
+  }
 }

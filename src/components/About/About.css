@@ -23,3 +23,28 @@
   color: azure;
   font-size: 20px;
 }
+
+@media only screen and (max-width: 428px) {
+  .container-fluid {
+    align-content: flex-start;
+  }
+
+  .about {
+    height: 100vh;
+  }
+
+  .text-heading {
+    display: none;
+  }
+  .para-about {
+    margin-top: 50px;
+    text-align: justify;
+    padding: 0;
+  }
+
+  .text-about {
+    font-size: 12px;
+    margin-bottom: 0;
+    padding: 0px 30px;
+  }
+}

@@ -1,1 +1,9 @@
+.side-nav {
+  height: 100%;
+}
 
+.parent-div {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
