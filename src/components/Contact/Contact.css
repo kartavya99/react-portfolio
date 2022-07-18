@@ -56,12 +56,12 @@
     height: 100px;
     margin: 30px 30px;
     padding: 25px 25px;
-    background-color: beige;
+    /* background-color: beige; */
   }
 
-  .footer-link {
+  .footer-contact {
     height: 50px;
-    background-color: white;
+    /* background-color: white; */
     color: azure;
   }
 }

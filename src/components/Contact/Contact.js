@@ -28,23 +28,23 @@ const Contact = () => {
             href="https://github.com/kartavya99"
             target="__blank"
             rel="noopener noreferrer"
-            className="footer-link"
+            className="footer-contact"
           >
             <FontAwesomeIcon
               icon={faGithub}
-              // size="2x"
+              size="3x"
               className="p-2 mx-2 text-light"
             />
           </a>
-          {/* <a
+          <a
             href="https://www.linkedin.com/in/kartavya99"
             target="__blank"
             rel="noopener noreferrer"
-            className="footer-link"
+            className="footer-contact"
           >
             <FontAwesomeIcon
               icon={faLinkedin}
-              // size="2x"
+              size="3x"
               className="p-2 mx-2 text-light"
             />
           </a>
@@ -52,26 +52,23 @@ const Contact = () => {
             href="mailto:kartavyas@gmail.com"
             target="__blank"
             rel="noopener noreferrer"
-            className="footer-link"
+            className="footer-contact"
           >
             <FontAwesomeIcon
               icon={faEnvelope}
-              // size="2x"
+              size="3x"
               className="p-2 mx-2 text-light"
             />
           </a>
           <a
-            href="mailto:kartavyas@gmail.com"
+            href="tel:+61410742021"
             target="__blank"
             rel="noopener noreferrer"
-            className="footer-link"
+            title="(0410) 742-021"
+            className="footer-contact"
           >
-            <FontAwesomeIcon
-              icon={faEnvelope}
-              // size="2x"
-              className="p-2 mx-2 text-light"
-            />
-          </a> */}
+            <i class="fa-regular fa-phone"></i>
+          </a>
         </div>
       </footer>
     </div>

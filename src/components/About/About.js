@@ -34,7 +34,7 @@ const About = () => {
         </p>
       </div>
       <div className="para-about">
-        <p className="text-about">icons</p>
+        {/* <p className="text-about">icons</p> */}
       </div>
     </div>
   );

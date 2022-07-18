@@ -5,11 +5,12 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 const Project = (props) => {
   // console.log(projectData);
-  // console.log(
-  //   projectData.map((project) => {
-  //     return console.log(project);
-  //   })
-  // );
+  console
+    .log
+    // projectData.map((project) => {
+    //   return console.log(project);
+    // })
+    ();
   return (
     <div className="project-div">
       <header className="">
