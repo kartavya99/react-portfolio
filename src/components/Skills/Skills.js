@@ -4,9 +4,9 @@ import "./Skill.css";
 const Skills = () => {
   return (
     <div className="skill">
-      <heading>
+      <header>
         <div className="skills-heading"> Skills |</div>
-      </heading>
+      </header>
       <div className="skills-div">
         <div className="para-skills ">
           <h3 className="heading-lng">Languages</h3>

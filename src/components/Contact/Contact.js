@@ -7,9 +7,9 @@ import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 const Contact = () => {
   return (
     <div className="contact-div">
-      <heading>
+      <header>
         <div className="contact-heading"> Contact Me |</div>
-      </heading>
+      </header>
 
       <div className="para-contact">
         <p className="contact-text">
@@ -30,14 +30,13 @@ const Contact = () => {
             rel="noopener noreferrer"
             className="footer-link"
           >
-            {/* <FontAwesomeIcon
+            <FontAwesomeIcon
               icon={faGithub}
-              size="2x"
+              // size="2x"
               className="p-2 mx-2 text-light"
-            /> */}
-            github
+            />
           </a>
-          <a
+          {/* <a
             href="https://www.linkedin.com/in/kartavya99"
             target="__blank"
             rel="noopener noreferrer"
@@ -45,7 +44,7 @@ const Contact = () => {
           >
             <FontAwesomeIcon
               icon={faLinkedin}
-              size="2x"
+              // size="2x"
               className="p-2 mx-2 text-light"
             />
           </a>
@@ -57,7 +56,7 @@ const Contact = () => {
           >
             <FontAwesomeIcon
               icon={faEnvelope}
-              size="2x"
+              // size="2x"
               className="p-2 mx-2 text-light"
             />
           </a>
@@ -69,10 +68,10 @@ const Contact = () => {
           >
             <FontAwesomeIcon
               icon={faEnvelope}
-              size="2x"
+              // size="2x"
               className="p-2 mx-2 text-light"
             />
-          </a>
+          </a> */}
         </div>
       </footer>
     </div>

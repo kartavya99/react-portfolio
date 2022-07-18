@@ -12,9 +12,9 @@ const Project = (props) => {
   // );
   return (
     <div className="project-div">
-      <heading className="">
+      <header className="">
         <div className="project-heading"> Projects |</div>
-      </heading>
+      </header>
       <section className="container-fluid">
         {projectData.map((project) => (
           <div className="card custom-style box">

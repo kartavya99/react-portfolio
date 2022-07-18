@@ -5,9 +5,9 @@ import "./About.css";
 const About = () => {
   return (
     <div className="about">
-      <heading className="text-heading">
+      <header className="text-heading">
         <div className="text-heading"> About Me |</div>
-      </heading>
+      </header>
       <div className="para-about">
         <p className="text-about">
           Full stack web developer leveraging a background in sales and
