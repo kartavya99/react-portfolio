@@ -2,7 +2,8 @@ import React from "react";
 import "./Contact.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
+import { faEnvelope, faSmile } from "@fortawesome/free-regular-svg-icons";
+import { faPhone } from "@fortawesome/free-solid-svg-icons";
 
 const Contact = () => {
   return (
@@ -14,12 +15,13 @@ const Contact = () => {
       <div className="para-contact">
         <p className="contact-text">
           {" "}
-          Thank you for visiting my portfolio please click below to get in touch{" "}
+          Thank you for taking time to go through my portfolio! I am very
+          passionate about learning new technologies and I hope that some of my
+          project would have created interest in you as Web developer.
         </p>
-        {/* <div className="contact-text"> GitHuub</div>
-        <div className="contact-text"> linkedin</div>
-        <div className="contact-text"> Phone</div>
-        <div className="contact-text"> Email</div> */}
+        <p className="contact-text">
+          Should you like to reach out me, please feel free to send me an email{" "}
+        </p>
       </div>
 
       <footer>
@@ -32,7 +34,7 @@ const Contact = () => {
           >
             <FontAwesomeIcon
               icon={faGithub}
-              size="3x"
+              size="2x"
               className="p-2 mx-2 text-light"
             />
           </a>
@@ -44,7 +46,7 @@ const Contact = () => {
           >
             <FontAwesomeIcon
               icon={faLinkedin}
-              size="3x"
+              size="2x"
               className="p-2 mx-2 text-light"
             />
           </a>
@@ -56,7 +58,7 @@ const Contact = () => {
           >
             <FontAwesomeIcon
               icon={faEnvelope}
-              size="3x"
+              size="2x"
               className="p-2 mx-2 text-light"
             />
           </a>
@@ -67,7 +69,11 @@ const Contact = () => {
             title="(0410) 742-021"
             className="footer-contact"
           >
-            <i class="fa-regular fa-phone"></i>
+            <FontAwesomeIcon
+              icon={faPhone}
+              size="2x"
+              className="p-2 mx-2 text-light"
+            />
           </a>
         </div>
       </footer>

@@ -20,6 +20,7 @@
 .contact-text {
   color: azure;
   font-size: 25px;
+  text-align: justify;
 }
 
 .div-footer {
@@ -60,7 +61,7 @@
   }
 
   .footer-contact {
-    height: 50px;
+    height: 25px;
     /* background-color: white; */
     color: azure;
   }
