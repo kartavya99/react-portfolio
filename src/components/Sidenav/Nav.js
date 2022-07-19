@@ -1,9 +1,11 @@
 import React from "react";
 import pic from "../../Images/pic.jpg";
+import resume from "../../Resume/Resume.pdf";
 import "./Nav.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
+import { faDownload } from "@fortawesome/free-solid-svg-icons";
 
 const Nav = ({ currentPage, pageChangeHandler }) => {
   // console.log(pageChangeHandler);
@@ -42,9 +44,13 @@ const Nav = ({ currentPage, pageChangeHandler }) => {
           {" "}
           Contact{" "}
         </a>
-        <a href="#resume" className="a-link">
-          {" "}
-          Resume{" "}
+        <a
+          target="__blank"
+          rel="noopener noreferrer"
+          href={resume}
+          className="a-link"
+        >
+          Resume <FontAwesomeIcon icon={faDownload}></FontAwesomeIcon>
         </a>
       </li>
 
@@ -56,6 +62,7 @@ const Nav = ({ currentPage, pageChangeHandler }) => {
             rel="noopener noreferrer"
             className="footer-link"
           >
+            {" "}
             <FontAwesomeIcon
               icon={faGithub}
               size="2x"
