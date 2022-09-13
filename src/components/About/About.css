@@ -18,6 +18,7 @@
 .para-about {
   padding: 15px;
   font-family: Montserrat;
+  text-align: center;
 }
 
 .text-about {
@@ -40,6 +41,7 @@
     /* display: none; */
     font-size: 20px;
     padding-right: 0px;
+    margin: 30px 25px;
   }
   .para-about {
     margin-top: 25px;
@@ -51,5 +53,6 @@
     font-size: 12px;
     margin-bottom: 0;
     padding: 0px 30px;
+    margin-right: 0px;
   }
 }
