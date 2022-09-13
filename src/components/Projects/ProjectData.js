@@ -8,6 +8,22 @@ const projectData = [
     alt: "Together Fitness is a full stack web application where a user can register, find a workout of their liking and attend the workout by signing up for it.",
   },
   {
+    title: "Crypto-Tracker",
+    technology: "React.js, MUI",
+    liveUrl: "https://kartavya99.github.io/crypto-tracker/",
+    gitHubUrl: "https://github.com/kartavya99/crypto-tracker.git",
+    img: "https://i.imgur.com/LcDmEFt.png",
+    alt: "Web application built with REACT framework of JS, where individual can see the historical data of crypto currency based on different duration.",
+  },
+  {
+    title: "Ecommerce-platform",
+    technology: "MERN & GraphQL",
+    liveUrl: "https://ecomm-platformks.herokuapp.com/",
+    gitHubUrl: "https://github.com/kartavya99/ecommerce-website.git",
+    img: "https://i.imgur.com/VV3ar9Z.png",
+    alt: "A full stack web application build with MERN stack, where business can list their products for marketing and advertising purpose.",
+  },
+  {
     title: "Social Network API",
     technology: "JavaScript, Express, MongoDB",
     liveUrl:
