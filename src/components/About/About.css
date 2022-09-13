@@ -9,21 +9,24 @@
 .text-heading {
   color: azure;
   text-align: right;
-  margin: 25px 50px;
+  margin: 50px 50px;
   padding-right: 10px;
   font-size: 30px;
+  font-family: Montserrat;
 }
 
 .para-about {
-  margin-bottom: 0px;
   padding: 15px;
+  font-family: Montserrat;
 }
 
 .text-about {
   color: azure;
   font-size: 20px;
   text-align: justify;
-  padding: 30px;
+  padding: 10px;
+  margin-right: 100px;
+  font-size: 25px;
 }
 
 @media only screen and (max-width: 428px) {

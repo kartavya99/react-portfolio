@@ -9,17 +9,19 @@
   margin: 50px 50px;
   padding-right: 50px;
   font-size: 30px;
+  font-family: Montserrat;
 }
 
 .para-skills {
   margin-top: 0px;
   padding: 15px;
   border-color: whitesmoke;
+  font-family: Montserrat;
 }
 
 .text-skills {
   color: azure;
-  font-size: 20px;
+  font-size: 25px;
   text-align: left;
 }
 
@@ -27,6 +29,7 @@
   color: azure;
   font-size: 25px;
   text-align: left;
+  font-family: Montserrat;
 }
 
 @media only screen and (max-width: 428px) {

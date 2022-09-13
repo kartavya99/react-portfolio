@@ -24,6 +24,7 @@ const Project = (props) => {
               <h5 className="">{project.title}</h5>
               <p className="">{project.technology}</p>
               <a
+                className="pro-link"
                 href={project.gitHubUrl}
                 target="__blank"
                 rel="noopener noreferrer"

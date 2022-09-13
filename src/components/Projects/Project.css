@@ -1,3 +1,7 @@
+.project-div {
+  min-height: 100vh;
+}
+
 .container-fluid {
   display: flex;
   /* align-items: flex-start; */
@@ -12,6 +16,7 @@
   margin: 50px 50px;
   padding-right: 50px;
   font-size: 30px;
+  font-family: Montserrat;
 }
 
 .inner-container {
@@ -44,6 +49,14 @@
 
 .pro-link {
   padding: 5px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-family: Montserrat;
+}
+
+a:hover {
+  color: darkred;
 }
 
 @media only screen and (max-width: 428px) {

@@ -17,7 +17,7 @@ const Contact = () => {
           {" "}
           Thank you for taking time to go through my portfolio! I am very
           passionate about learning new technologies and I hope that some of my
-          project would have created interest in you as Web developer.
+          projects would have created interest in you as Web developer.
         </p>
         <p className="contact-text">
           Should you like to reach out me, please feel free to send me an email{" "}
