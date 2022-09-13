@@ -20,7 +20,7 @@ const About = () => {
           Currently completing a Certificate in Full Stack Web Development at
           Monash University with skills in HTML, CSS, JavaScript, MongoDB,
           React, ExpressJs, NodeJS. Adaptive problem-solver who loves to develop
-          apps with focus on mobile-first design and development.c I have gained
+          apps with focus on mobile-first design and development. I have gained
           good understanding of computer science applied to JavaScript, browser
           based technologies HTML, CSS, JavaScript, JQuery and Git the version
           control system.
