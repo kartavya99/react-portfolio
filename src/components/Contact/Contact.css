@@ -41,7 +41,7 @@
 @media only screen and (max-width: 428px) {
   .contact-div {
     align-content: flex-start;
-    margin-top: 120px;
+    margin-top: 175px;
   }
 
   .contact-heading {
@@ -73,5 +73,13 @@
     height: 25px;
     /* background-color: white; */
     color: azure;
+  }
+
+  .head-line {
+    color: azure;
+    font-size: 20px;
+    text-align: justify;
+    font-family: Montserrat;
+    margin-left: 30px;
   }
 }

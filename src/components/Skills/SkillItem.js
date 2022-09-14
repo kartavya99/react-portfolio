@@ -5,7 +5,7 @@ import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 const SkillItem = ({ skill }) => {
   return (
     <div className="d-flex align-items-center my-4 skill-list-container">
-      <div>
+      <div className="icon">
         <FontAwesomeIcon
           icon={skill.icon}
           size="3x"
