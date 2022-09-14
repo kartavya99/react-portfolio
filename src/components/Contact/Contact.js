@@ -12,6 +12,10 @@ const Contact = () => {
         <div className="contact-heading"> Contact Me |</div>
       </header>
 
+      <div>
+        <p className="head-line">Let's Get in Touch !!!</p>
+      </div>
+
       <div className="para-contact">
         <p className="contact-text">
           {" "}

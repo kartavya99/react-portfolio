@@ -25,6 +25,13 @@
   font-family: Montserrat;
 }
 
+.head-line {
+  color: azure;
+  font-size: 45px;
+  text-align: justify;
+  font-family: Montserrat;
+}
+
 .div-footer {
   height: 100%;
   margin-top: 50px;
