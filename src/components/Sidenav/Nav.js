@@ -1,5 +1,5 @@
 import React from "react";
-import pic from "../../Images/pic.jpg";
+import pic from "../../images/pic.jpg";
 import resume from "../../Resume/Resume.pdf";
 import "./Nav.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
